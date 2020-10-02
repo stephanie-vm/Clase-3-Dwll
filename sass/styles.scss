@@ -1,0 +1,25 @@
+.wrapper{
+  width: 700px;
+  margin:0 auto ;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.hilera{
+  div{
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+}
+.par{
+  div:nth-child(even) {
+    background: black; }
+}
+.impar {
+  div:nth-child(odd) {
+    background: black; }
+}
